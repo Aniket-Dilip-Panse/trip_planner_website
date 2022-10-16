@@ -1,5 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: skyblue;
+}
+.menu_list{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+.menu_list>a,li{
+    list-style: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    
 }
