@@ -9,17 +9,33 @@ body{
 }
 .header{
     display: flex;
-    justify-content: space-between;
-    background-color: skyblue;
+    /* background-color:rgb(9, 173, 195); */
+    padding: 20px;
+    justify-content: space-around;
+}
+.logo{
+    color:dodgerblue;
+    text-transform: capitalize;
+    font-size: 2.8vw;
 }
 .menu_list{
     display: flex;
-    justify-content: space-between;
-    gap: 5px;
+    justify-content: space-evenly;
 }
-.menu_list>a,li{
-    list-style: none;
+.menu_list>a{
     text-decoration: none;
     text-transform: capitalize;
-    
+}
+.menu_list>a>li{
+    list-style-type: none;
+    margin-left:3vw;
+    font-size: 2.7vw;
+}
+.menu_list>input{
+    margin-left: 3vw;
+    background-color:dodgerblue;
+    font-size: 2vw;
+    padding: 6px 15px;
+    border: none;
+    border-radius: 5px;
 }
