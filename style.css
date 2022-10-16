@@ -30,6 +30,7 @@ body{
     list-style-type: none;
     margin-left:3vw;
     font-size: 2.7vw;
+    color: dodgerblue;
 }
 .menu_list>input{
     margin-left: 3vw;
