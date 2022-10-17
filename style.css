@@ -1,42 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    font-size: 62.5%;
+}
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
-.header{
+header{
+    height: 10rem;
+    padding: 0 4.8rem;
     display: flex;
-    /* background-color:rgb(9, 173, 195); */
-    padding: 20px;
-    justify-content: space-around;
+    justify-content:space-between;
+    align-items:center;
+    background-color:#e7f5ff;
 }
-.logo{
-    color:dodgerblue;
-    text-transform: capitalize;
-    font-size: 2.8vw;
+.logo-img{
+    height: 3rem;
 }
-.menu_list{
+.navbar-list{
     display: flex;
-    justify-content: space-evenly;
+    gap:4.8rem;
+    list-style: none;
 }
-.menu_list>a{
+.navbar-links:link,
+.navbar-links:visited{
+    font-size: 2rem;
+    font-weight: 500;
+    color:#212529;
+    display: inline-block;
+    text-transform:capitalize;
     text-decoration: none;
-    text-transform: capitalize;
+    transition: all 0.3s;
 }
-.menu_list>a>li{
-    list-style-type: none;
-    margin-left:3vw;
-    font-size: 2.7vw;
+.navbar-links:active,
+.navbar-links:hover{
     color: dodgerblue;
-}
-.menu_list>input{
-    margin-left: 3vw;
-    background-color:dodgerblue;
-    font-size: 2vw;
-    padding: 6px 15px;
-    border: none;
-    border-radius: 5px;
 }
