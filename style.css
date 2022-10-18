@@ -40,3 +40,47 @@ header{
 .navbar-links:hover{
     color: dodgerblue;
 }
+.hero-container{
+   display: flex;
+   justify-content: space-between;
+   padding: 2.5rem 4.8rem;
+   gap: 0rem 2rem;
+}
+.hero-container-left{
+    width: 50%;
+    /* border: 1px solid black; */
+}
+.hero-container-right{
+    width:50%;
+    /* border: 1px solid black; */
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.content1{
+    /* border: 1px solid black; */
+    padding: 3rem 0rem;
+}
+.content1>h1{
+    font-size: 7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    color: #212529;
+}
+.content1>p{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+input[type=text]{
+    padding: 0.6rem 1rem;
+    box-shadow: 0.1rem 0.1rem 0.2rem #e7f5ff;
+    width: 30rem;
+    box-shadow: rgba(13, 134, 194, 0.24) 0px 3px 8px;
+    border: none;
+}
+button{
+    background-color: #e7f5ff;
+    padding: 0.6rem 1rem;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    box-shadow: rgba(13, 134, 194, 0.24) 0px 3px 8px;
+    border: none;
+}
