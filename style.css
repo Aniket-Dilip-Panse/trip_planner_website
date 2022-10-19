@@ -182,21 +182,30 @@ button{
     letter-spacing: 2px;
     color: dodgerblue;
     text-transform: uppercase;
-    font-size: clamp(1rem,2vw,3rem);
+    font-size: clamp(1rem,2vw,2rem);
     margin-bottom: 0.4rem;
 }
 .tours>h2{
-   font-size: clamp(2rem,3vw,4rem);
+   font-size: clamp(2rem,3vw,3rem);
    margin-bottom: 2rem;
 }
-
-
-
-
-
-
-
-
+.tour-grid{
+    display: grid;
+    gap:2rem;
+    grid-template-rows:repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
+    /* grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); */
+    /* grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); */
+    margin: 0rem 2rem;
+}
+.img{
+    border-radius: 1rem;
+}
+.images{
+    text-align: center;
+    font-size: medium;
+    font-weight: 200;
+}
 
 
 
@@ -294,6 +303,16 @@ button{
     .feature-right{
         width: 100%;
     }
+
+    .tour-grid{
+        display: grid;
+        gap:2rem;
+        grid-template-rows:repeat(2,1fr);
+        grid-template-columns: repeat(2,1fr);
+        /* grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); */
+        /* grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); */
+        margin: 0rem 2rem;
+    }
 }
 
 /* below 560px */
@@ -329,5 +348,17 @@ button{
      .feature-right>a{
         font-size:.5rem;
         padding: 0.25rem 1rem;
+    }
+    .tour-grid{
+        display: grid;
+        gap:2rem;
+        grid-template-rows:repeat(1,1fr);
+        grid-template-columns: repeat(1,1fr);
+        /* grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); */
+        /* grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); */
+        margin: 0rem 2rem;
+        justify-content: center;
+        align-content: center;
+        place-items: center;
     }
 }
