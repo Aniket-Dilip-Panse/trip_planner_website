@@ -46,6 +46,12 @@ li:last-child{
     background-color: dodgerblue;
     padding: 0.2rem 1rem;
 }
+
+
+
+
+
+/* hero section */
 .hero-container{
    display: flex;
    justify-content: space-between;
@@ -115,6 +121,10 @@ button{
     display: none;
 }
 
+
+
+
+
 /* feature section css */
 .feature-section{
     padding: 2.5rem 4.8rem;
@@ -158,6 +168,41 @@ button{
     background-color: transparent;
     color: dodgerblue;
 }
+
+
+/* tours section */
+
+.tours{
+    text-align: center;
+    width: 100%;
+    margin-top: 3rem;
+    padding: 0rem 4.8rem;
+}
+.tours>p{
+    letter-spacing: 2px;
+    color: dodgerblue;
+    text-transform: uppercase;
+    font-size: clamp(1rem,2vw,3rem);
+    margin-bottom: 0.4rem;
+}
+.tours>h2{
+   font-size: clamp(2rem,3vw,4rem);
+   margin-bottom: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query */
 
 /* 980px to em == 980 divide by 16 */
 @media (max-width:62em){
