@@ -312,6 +312,51 @@ input{
     letter-spacing: 2px;
     color: white;
 }
+
+.footer{
+    /* display: flex;
+    justify-content:space-around;
+    background-color: lightblue;
+    padding: 1.5rem 2rem;
+    margin-top: 2rem;
+    gap:1rem;
+    flex-wrap: nowrap; */
+    display: grid;
+    grid-template-rows: 150px;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 1rem;
+    padding: 1.5rem 2rem;
+    background-color: lightblue;
+}
+
+.news-details{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.foot-about>h2,.foot-heading{
+    font-size: clamp(2rem,3vw,3rem);
+    color: #212529;
+}
+.foot-about>p{
+    font-size: clamp(0.8rem,2vw,1rem);
+    margin-top: 1rem;
+}
+
+.foot-img>.news-img{
+   width:5rem;
+   height: auto;
+}
+
+.location-p,.location-heading{
+    margin-top: 1rem;
+}
+
+.end{
+    text-align: center;
+    background-color: lightblue;
+}
+
 @media only screen and (max-width: 480px) {
     .container{
         width: 100%;
